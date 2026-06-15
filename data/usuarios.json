@@ -1,0 +1,32 @@
+{
+    "BO4no": {
+        "contrasena": "123",
+        "saldo": 2348,
+        "total_gastos": 1552,
+        "total_ingresos": 3900,
+        "gastos": [
+            {
+                "fecha": "2026-06-18",
+                "categoria": "Fundación",
+                "monto": 152
+            },
+            {
+                "fecha": "2026-06-16",
+                "categoria": "Proyecto",
+                "monto": 900
+            },
+            {
+                "fecha": "2026-06-16",
+                "categoria": "Internet",
+                "monto": 500
+            }
+        ]
+    },
+    "sassa": {
+        "contrasena": "123",
+        "saldo": 0,
+        "total_gastos": 0,
+        "total_ingresos": 0,
+        "gastos": []
+    }
+}

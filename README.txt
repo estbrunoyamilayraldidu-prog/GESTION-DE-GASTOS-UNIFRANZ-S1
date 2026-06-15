@@ -1,0 +1,20 @@
+CONTROL DE GASTOS ESTUDIANTILES - UNIFRANZ
+============================================
+ESTRUCTURA DEL PROYECTO:
+- app.py              -> Servidor Flask (backend en Python)
+- templates/index.html -> Interfaz (frontend HTML/CSS/JS)
+- static/assets/      -> Logo de la universidad
+- data/usuarios.json  -> Se crea automaticamente al registrar el primer usuario
+
+COMO EJECUTAR EN VISUAL STUDIO CODE:
+1. Abrir la carpeta "proyecto_unifranz" en VS Code.
+2. Instalar Flask (solo la primera vez):
+   pip install -r requirements.txt
+3. Ejecutar el servidor:
+   python app.py
+4. Abrir el navegador en: http://127.0.0.1:5000
+
+FUNCIONAMIENTO:
+- Registrarse crea un usuario en data/usuarios.json (con su contraseña).
+- Iniciar sesion carga el saldo, ingresos y gastos guardados de ese usuario.
+- Registrar ingresos/gastos actualiza el archivo JSON automaticamente.
